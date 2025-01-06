@@ -55,11 +55,21 @@ createRoot(document.getElementById("root")).render(
      </StrictMode>
 );
 
-*/
-
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import Funcomponent from "./LEC-31-12/hookComponent";
 
 createRoot(document.getElementById("root")).render(
+);
+
+*/
+
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import StateExample3 from "./LEC-06-01/hookExample3";
+
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
+    <StateExample3 />
+  </StrictMode>
 );
