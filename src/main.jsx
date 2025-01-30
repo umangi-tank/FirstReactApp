@@ -66,10 +66,12 @@ createRoot(document.getElementById("root")).render(
 
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import StateExample3 from "./LEC-06-01/hookExample3";
+//import HookUseEffect from "./LEC-18-01/HookUseEffect";
+//import CountDown from "./LEC-18-01/CountDown";
+import ArrayOfString from "./LEC-18-01/ArrayOfString";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <StateExample3 />
+    <ArrayOfString/>
   </StrictMode>
 );
